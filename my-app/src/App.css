@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header{
+  color: #0c5763;
+  background-color: #d8d7d7;
+  padding: 10px;
+}
+.Products{
+  width: 100vw;
+ 
+}
+.card{
+  width: 18rem;
+}
+.shop-header{
+  color: #0c5763;
+  text-transform: capitalize;
+}
+.card-img-top{
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+}
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+ul li{
+  list-style-type: none;
+  margin: 20px 15px;
+}
+ul li .a{
+  text-decoration: none;
+  font-size: 1.7rem;
+}
+ul li .a:hover{
+  color: #0c5763;
+  text-decoration: underline;
+}
